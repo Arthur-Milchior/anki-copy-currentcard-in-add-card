@@ -1,10 +1,10 @@
 # Copy current deck/tags in add card
 ## Rationale
-You may want to add a note related to current card, and so have it in
-the same deck and with the same tags ase the current card. This is
-especially useful if you use filtered deck or nested decks. This
-add-on simply ensure that, when you are reviewing a card and opening
-the "add-card" window, it's deck will be the deck of the card you are
+You may want to add a note related to the current card, and so have it in
+the same deck and with the same tags as the current card. This is
+especially useful if you use filtered decks or nested decks. This
+add-on simply ensures that, when you are reviewing a card and open
+the "add-card" window, its deck will be the deck of the card you are
 reviewing, and it will copy its tags.
 
 This was commissioned for 20$.
