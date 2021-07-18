@@ -17,7 +17,6 @@ def init(add_cards):
     editor.note.setTagsFromStr(current_note.stringTags())
     editor.updateTags()
     current_did = current_card.odid or current_card.did
-    current_deck = mw.col.decks.get(current_did)
-    add_cards.deckChooser.setDeckName(current_deck["name"])
-    
+    add_cards.deckChooser.selected_deck_id = current_did
+
 gui_hooks.add_cards_did_init.append(init)
