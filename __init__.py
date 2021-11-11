@@ -1,7 +1,5 @@
 from aqt import gui_hooks, mw
 from aqt.addcards import AddCards
-from aqt.utils import tooltip, showInfo
-
 
 def init(add_cards):
     editor = add_cards.editor
@@ -14,7 +12,7 @@ def init(add_cards):
     current_card = reviewer.card
     if current_card is None:
         return
-        
+
     current_note = current_card.note()
     editor.note.tags = current_note.tags
     showInfo(" ".join(current_note.tags))
