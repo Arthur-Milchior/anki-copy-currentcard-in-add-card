@@ -17,8 +17,7 @@ It changes `AddCards.__init__`, and call the previous method. In anki
 
 Key         |Value
 ------------|-------------------------------------------------------------------
-Copyright   | Arthur Milchior <arthur@milchior.fr>,
-            | p4nix
+Copyright   | Arthur Milchior <arthur@milchior.fr> <br> p4nix
 Based on    | Anki code by Damien Elmes <anki@ichi2.net>
 License     | GNU GPL, version 3 or later; http://www.gnu.org/licenses/gpl.html
 Source in   | https://github.com/Arthur-Milchior/anki-copy-currentcard-in-add-card
