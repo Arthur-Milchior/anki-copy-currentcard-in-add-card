@@ -15,7 +15,6 @@ def init(add_cards):
 
     current_note = current_card.note()
     editor.note.tags = current_note.tags
-    showInfo(" ".join(current_note.tags))
     current_did = current_card.odid or current_card.did
     add_cards.deckChooser.selected_deck_id = current_did
 
